@@ -13,14 +13,15 @@ Depois abra `http://localhost:8080/index.html`.
 
 ## Deploy no Render (Static Site)
 
+Já publicado em: **https://site-despertar.onrender.com**
+
 1. New → Static Site → conectar este repositório.
 2. Build Command: deixar em branco.
 3. Publish Directory: `.`
-4. Deploy. O Render gera uma URL pública (`https://xxx.onrender.com`) pronta para enviar aos sócios.
+4. Deploy.
 
-Depois do primeiro deploy, atualize as tags `og:image` / `twitter:image` em `index.html`
-para a URL absoluta (`https://xxx.onrender.com/assets/img/favicon.png`), para que o preview
-do link fique correto ao compartilhar no WhatsApp/e-mail.
+As tags `og:image` / `twitter:image` / `canonical` em `index.html` já apontam para essa URL.
+Se o link do Render mudar (novo serviço, domínio próprio etc.), atualize essas tags de acordo.
 
 ## O que é indicativo (não funcional de propósito)
 
