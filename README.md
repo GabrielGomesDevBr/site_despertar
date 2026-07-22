@@ -42,7 +42,8 @@ assets/
   js/main.js
   img/
     logo.png          — logo oficial (fundo transparente)
-    favicon.png        — recorte quadrado do ícone (favicon + og:image)
+    favicon.png        — recorte quadrado do ícone usado como favicon
+    og-despertar.png   — arte de compartilhamento para WhatsApp e redes sociais
     vania_original.png      — imagem original da fundadora
     diretoria_original.png  — imagem original da diretoria
     cauezinho_original.png  — ilustração original usada no Projeto Cauê
